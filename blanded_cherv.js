@@ -299,8 +299,8 @@
 //    this.items = this.items.filter((str) => {return str != itemToRemove});
 //  }
 //  }
-// експорт бібліотеки 
-let userSelectedDate = [];
-const currentDate = new Date();//potochna
-const targetDate = new Date(date of uzer);
-let differants = (targetDate - currentDate)/1000;
+// // експорт бібліотеки 
+// let userSelectedDate = [];
+// const currentDate = new Date();//potochna
+// const targetDate = new Date(date of uzer);
+// let differants = (targetDate - currentDate)/1000;

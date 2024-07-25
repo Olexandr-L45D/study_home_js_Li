@@ -623,22 +623,22 @@
 //       average: grades.length ? Math.round(total / grades.length) : total,
 //     };
 //   });
-// }
-// console.log(getAverage(students));
-.. Приклади метода редьюс (.reduce) (працює з будь якою умовою і повертаю будь якого типу данні!!!)
-array.reduce((previousValue, element, index, array) => {
-  // Тіло колбек-функції
-}, initialValue);
-const total = [2, 7, 3].reduce((previousValue, number) => {
-  return previousValue + number;
-}, 0);
+// // }
+// // console.log(getAverage(students));
+// .. Приклади метода редьюс (.reduce) (працює з будь якою умовою і повертаю будь якого типу данні!!!)
+// array.reduce((previousValue, element, index, array) => {
+//   // Тіло колбек-функції
+// }, initialValue);
+// const total = [2, 7, 3].reduce((previousValue, number) => {
+//   return previousValue + number;
+// }, 0);
 
-console.log(total); // 12
-// 
-.. Додаткові методи пошуку Фаінд *find* та Сам **some**
-// ********find******** \\
-// const users = [
-//     { id: 1, name: "John", age: 28, skills: ["JavaScript", "HTML", "CSS"] },
+// console.log(total); // 12
+// // 
+// .. Додаткові методи пошуку Фаінд *find* та Сам **some**
+// // ********find******** \\
+// // const users = [
+// //     { id: 1, name: "John", age: 28, skills: ["JavaScript", "HTML", "CSS"] },
 //     { id: 2, name: "Alice", age: 32, skills: ["Python", "Data Analysis"] },
 //     { id: 3, name: "Bob", age: 24, skills: ["JavaScript", "React", "Node.js"] },
 //     { id: 4, name: "Emily", age: 40, skills: ["Java", "Spring"] },
@@ -652,9 +652,10 @@ console.log(total); // 12
 
 // const isKnow = users.some((user) => user.skills.includes("GraphQL"));
 // console.log(isKnow);
-const getUsersWithEyeColor = (users, gender) => {
-  return users.filter(users => 
-{ return users.gender === gender })};
 
-console.log(getUsersWithEyeColor(users, "female"))
-console.log(getUsersWithEyeColor(users, "male"))
+// const getUsersWithEyeColor = (users, gender) => {
+//   return users.filter(users => 
+// { return users.gender === gender })};
+
+// console.log(getUsersWithEyeColor(users, "female"))
+// console.log(getUsersWithEyeColor(users, "male"))
