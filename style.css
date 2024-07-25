@@ -126,13 +126,14 @@ ol {
 .gallery-link {
   text-decoration: none;
 }
+/* 
 ul {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   user-select: none;
   list-style: none;
-}
+} */
 
 .gallery {
   display: flex;
