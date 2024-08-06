@@ -1,4 +1,4 @@
-// my sekcion About My
+// my sekcion About My 
 import Accordion from 'accordion-js';
 import 'accordion-js/dist/accordion.min.css';
 
